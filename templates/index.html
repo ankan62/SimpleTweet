@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block title %}
+Ankan
+{% endblock %}
+
+{% block content %}
+<h1 class="text-center  mt-4">Django project</h1>
+<div class="d-flex justify-content-center my-5">
+  <a href="{% url 'tweet_list' %}" class="btn btn-primary btn-lg px-5 py-3">
+    Click here to see Main Page
+  </a>
+</div>
+{% endblock %}
