@@ -25,3 +25,9 @@ Install dependencies via `pip`:
 
 ```bash
 pip install -r requirements.txt
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/tweetapp.git
+cd tweetapp
