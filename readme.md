@@ -1,43 +1,27 @@
-# Python
-__pycache__/
-*.py[cod]
-*.sqlite3
-*.log
+# TweetApp
 
-# Django specific
-*.pot
-*.pyc
-*.pyo
-*.pyd
-*.db
-*.db-journal
+A simple Django-based microblogging web app where users can create, view, edit, and delete tweet-style posts with optional images.
 
-# Virtual environments
-venv/
-env/
-ENV/
-.venv/
-.ENV/
+## 🚀 Features
 
-# VS Code / IDE files
-.vscode/
-.idea/
+- User authentication (login/logout)
+- Create, read, update, and delete (CRUD) tweets
+- Upload and display images using Pillow
+- Responsive frontend with Bootstrap 5
+- Clean UI with card-style tweet layout
+- Image support with media file handling
 
-# macOS
-.DS_Store
+## 🛠️ Tech Stack
 
-# Media files (uploaded images)
-media/
+- **Backend:** Django 5.2.1
+- **Frontend:** Bootstrap 5.3
+- **Database:** SQLite (default, easy setup)
+- **Image Handling:** Pillow
+- **Timezones & Parsing:** tzdata, sqlparse
 
-# Static file collections (optional)
-staticfiles/
-static_root/
+## 📦 Requirements
 
-# Secrets / environment config (optional)
-.env
-*.env
+Install dependencies via `pip`:
 
-# Node (if you use npm/yarn)
-node_modules/
-package-lock.json
-yarn.lock
+```bash
+pip install -r requirements.txt
